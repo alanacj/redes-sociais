@@ -1,8 +1,8 @@
 
 :root {
-    --bg-color: #222831;
-    --primary-color: #DDDDDD;
-    --secundary-color: #F05454;
+    --bg-color: #192c49;
+    --primary-color: #ffffff;
+    --secundary-color: #7b7ddd;
     --font: "Nunito Sans", sans-serif;
 }
 
@@ -43,6 +43,10 @@ nav a:hover {
     text-decoration: underline;
     transform: scale(0.90);
     transition: transform 0.1s;
+}
+
+.grafico {
+    margin-top: 3rem;
 }
 
 .graficos-container {
