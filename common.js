@@ -13,7 +13,16 @@ function criarGrafico(data, layout) {
     grafico.className = 'grafico'
     document.getElementById('graficos-container').appendChild(grafico)
     const config= {
-        responsive: true
+        responsive: true,
+        displayModeBar: false
     }
-    Plotly.newPlot(grafico, data, layout)
+    Plotly.newPlot(grafico, data, layout, config)
+}
+
+function incluirTexto(texto) {
+    const container = document.getElementById('graficos-container')
+    const paragrafo = document.createElement('p')
+    paragrafo.classList.add('graficos-container_texto')
+    paragrafo.innerHTML = texto
+    container.appendChild(paragrafo)
 }
