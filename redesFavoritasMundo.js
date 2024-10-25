@@ -37,6 +37,8 @@ async function redesFavoritasMundo () {
 
     criarGrafico(data,layout)
 
+    incluirTexto(`Embora o <span>Instagram</span> ocupe a quarta posição de redes sociais com mais usuárioss no mundo, ela é a rede socal que as pessoas mais gostam. Seguida de WhatsApp e Facebook`)
+
 }
 
 
