@@ -50,7 +50,7 @@ async function redesSociaisFavoritaMinhaEscola () {
     }
 
     criarGrafico(data,layout)
-    incluirTexto(``)
+    incluirTexto(`Como no mundo, as pessoas entrevistadas do Terceiro ano de Ensino Médio da minha escola, demonstram um apreço pelo <span>Instagram</span> em relação as outras redes`)
 
 }
 
